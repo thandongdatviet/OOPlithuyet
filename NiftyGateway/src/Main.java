@@ -10,7 +10,7 @@ public class Main {
 	        String filePath = "C:\\Users\\Administrator\\eclipse-workspace\\NiftyGateway\\src\\OOP\\data\\NiftyGateway.json";
 	        JsonReader op = new JsonReader();
 	        // Gọi phương thức để đọc dữ liệu và nhận danh sách OpenSeaNft
-	        List<NftGatewayNft> openSeaNftList = op.readOpenSeaJson(filePath);
+	        List<NftGatewayNft> openSeaNftList = op.readNiftyGatewayJson(filePath);
 	        for (NftGatewayNft nft: openSeaNftList
 	             ) {
 	            System.out.println(nft.getName());

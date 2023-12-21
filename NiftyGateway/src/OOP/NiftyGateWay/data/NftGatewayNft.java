@@ -55,5 +55,13 @@ public class NftGatewayNft {
 		super();
 	}
 	
-	
+	@Override
+	public String toString() {
+		String string = "";
+		string = string + "id: " + id +
+				"name: " + name +
+				"floorPrice" + floorPrice ;
+				
+		return string;
+	}
 }
